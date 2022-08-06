@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <form>
+        <p>
+            ชื่อเต็ม/ย่อของสาขาวิชา
+            <input type="text" id="name" name="name">
+        </p>
+        <p>
+            จำนวนเงินที่จะโอน
+            <input type="number" id="money" name="money "value="0" placeholder="จำนวนเงินที่จะโอน" step="10" min="0" max="500000000">
+        </p>
+        <p>
+            อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย  &nbsp;&nbsp;5  &nbsp;&nbsp;&nbsp;4  &nbsp;&nbsp;&nbsp;3  &nbsp;&nbsp;&nbsp;&nbsp;2 &nbsp; &nbsp;1 <br>
+            กรอกชื่ออาหารที่&nbsp;1 &nbsp;
+            <input type="text" id="food" name="food">
+            <input type="radio" name="star5" value="5" checked="checked" /> 
+            <input type="radio" name="star4" value="4" /> 
+            <input type="radio" name="star3" value="3" /> 
+            <input type="radio" name="star2" value="2" /> 
+            <input type="radio" name="star1" value="1" /> <br>
+            กรอกชื่ออาหารที่&nbsp;2 &nbsp;
+            <input type="text" id="food" name="food"> 
+            <input type="radio" name="star5" value="5" checked="checked" /> 
+            <input type="radio" name="star4" value="4" /> 
+            <input type="radio" name="star3" value="3" /> 
+            <input type="radio" name="star2" value="2" /> 
+            <input type="radio" name="star1" value="1" /> <br>
+            กรอกชื่ออาหารที่&nbsp;3 &nbsp;
+            <input type="text" id="food" name="food"> 
+            <input type="radio" name="star5" value="5" checked="checked" /> 
+            <input type="radio" name="star4" value="4" /> 
+            <input type="radio" name="star3" value="2" /> 
+            <input type="radio" name="star2" value="2" /> 
+            <input type="radio" name="star1" value="1" /> <br>
+            กรอกชื่ออาหารที่&nbsp;4 &nbsp;
+            <input type="text" id="food" name="food"> 
+            <input type="radio" name="star5" value="5" checked="checked" /> 
+            <input type="radio" name="star4" value="4" /> 
+            <input type="radio" name="star3" value="3" />
+            <input type="radio" name="star2" value="2" /> 
+            <input type="radio" name="star1" value="1" /> <br>
+            กรอกชื่ออาหารที่&nbsp;5 &nbsp;
+            <input type="text" id="food" name="food"> 
+            <input type="radio" name="star5" value="5" checked="checked" /> 
+            <input type="radio" name="star4" value="4" />
+            <input type="radio" name="star3" value="3" /> 
+            <input type="radio" name="star2" value="2" />
+            <input type="radio" name="star1" value="1" /> <br>
+            
+            
+        </p>
+        <p>
+            ค่าไฟฟ้า 3 เดือนที่ผ่านมา
+            <input type="text" id="price" name="price">
+        </p>
+        <p>
+            รหัสบัตรประชาชน
+            <input id="id_number" name="id_number" type="text" pattern="[0-13]*">
+        </p>
+        <p>ความพึงพอใจของหนังสือเล่มนี้
+            <input type="radio" name="point" value="5" checked="checked" /> ดีเยี่ยม
+            <input type="radio" name="point" value="4" /> ดีมาก
+            <input type="radio" name="point" value="5" /> พอใช้
+            <input type="radio" name="point" value="4" /> ปรับปรุง
+            <input type="radio" name="point" value="5" /> ไม่พอใจ
+            </p>
+                <p>อาการป่วย
+                    <input type="text" id="name" name="name">
+                </p>
+                <p>
+                    ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่ :
+                    <input type="radio" name="Y/N" value="Yes" checked="checked" /> Yes
+                    <input type="radio" name="Y/N" value="No" /> No
+                </p>
+                <p>
+                    รหัสผ่าน
+                    <input type="password" id="pass" name="password" />
+                </p>
+                <p>
+                    เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน <br>
+
+                    เวลาเริ่ม <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+
+                    เวลาสิ้นสุด
+                    <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                </p>
+                <p>
+                    วันเวลาที่ต้องไปพบแพทย์
+
+                    วันนัด
+                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                        max="2018-12-31" />
+
+                    เวลา 
+                    <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                </p>
+
+    </form>
+</body>
+
+</html>
